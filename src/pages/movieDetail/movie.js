@@ -23,8 +23,8 @@ const Movie = () => {
             .then(res => res.json())
             .then(data => setCrewMovie(data.cast))
     }
-    console.log("currentCrewDetail", currentMovieCrewDetail)
-    console.log("currentMovieDetail", currentMovieDetail)
+    // console.log("currentCrewDetail", currentMovieCrewDetail)
+    // console.log("currentMovieDetail", currentMovieDetail)
     return (
         <div className="movie">
             <div className="movie__intro">
